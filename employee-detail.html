@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title>Employee Search</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="./assets/css/style.css">
+   
+</head>
+
+<body onload="empData();">
+    <section id="detBody" class="container">
+        <nav id="navBtnContainer">
+            <a class="btn btn-danger" href="search-employee.html" onclick="clearData();">Back</a>
+        </nav>
+
+        <div class="container">
+            <h1 id="empName"></h1>
+            <div class="row">
+                <div class="col-xs-6 col-sm-2" id="profile">
+                    <img class="img-responsive" style="width: 150px" src="" alt="Employee Picture" id="picture">
+                </div>
+                <div class="col-xs-6 col-sm-4" >
+                    <ul class="list-unstyled" id="details">
+                        <li>Full name:
+                            <span id="fullName"></span>
+                        </li>
+                        <li>Gender:
+                            <span id="gender"></span>
+                        </li>
+                        <li>Phone number:
+                            <span id="phone"></span>
+                        </li>
+                        <li>Company:
+                            <span id="company"></span>
+                        </li>
+                        <li>Address:
+                            <span id="addr"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <section>
+                <h3><b>About employee</b></h3>
+                <article>
+                    <p id="about"></p>
+                </article>
+                <p>Employee was registered in the system:
+                    <span id="rgsDate"></span>
+                </p>
+                <h3><b>Location</b></h3>
+                <div id="map">
+                    
+
+                </div>
+            </section>
+        </div>
+    </section>
+</body>
+<script src="./assets/js/employee.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCu62EFaO_4q1mzB9w1XVMWKJxAe2hEMyg&callback=locationMap "></script>
+
+</html>

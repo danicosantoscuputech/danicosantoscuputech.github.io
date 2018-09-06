@@ -1,0 +1,42 @@
+*{padding: 0; margin: 0;}
+.container > header {
+    margin: 10px auto;
+}
+header .navbar {
+    border-radius: 0;
+}
+.jumbotron {
+    border-radius: 0 !important;
+}
+
+#searchForm .form-control {
+    border-radius: 0;
+}
+#searchResult {
+    background-color: #eee;
+    padding: 15px 10px;
+    height: auto;
+    overflow: auto;
+
+}
+#btnContainer {
+    margin: 10px 0;
+    
+    
+}
+#btnContainer > .btn {
+    border-radius: 0;
+}
+#detBody {
+    padding: 15px;
+}
+#map {
+    width: 100%;
+    height: 250px;
+}
+#navBtnContainer {
+    padding: 5px 15px;
+}
+#navBtnContainer > .btn {
+    border-radius: 0;
+}
