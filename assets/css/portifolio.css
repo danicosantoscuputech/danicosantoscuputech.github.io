@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css?family=Sigmar+One");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+body {
+  position: relative;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.navbar {
+  background-color: rgb(38, 23, 88);
+  margin: 0;
+  font-family: "Sigmar One", cursive;
+  font-size: 2rem;
+  border-radius: 0;
+}
+.navbar-header > .navbar-brand {
+  color: #fff;
+  font-size: 2.8rem;
+}
+.navbar-header > .navbar-toggle {
+  background-color: transparent;
+  border: none;
+}
+.navbar-header > .navbar-toggle:hover {
+  background-color: transparent;
+  border: none;
+}
+.navbar-header > .navbar-toggle:focus {
+  background-color: transparent;
+  border: none;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+  background-color: rgb(211, 139, 7);
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a:focus {
+  background-color: rgb(211, 139, 7);
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+  background-color: rgb(211, 139, 7);
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > .active > a:active {
+  background-color: rgb(211, 139, 7);
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: rgb(211, 139, 7);
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background-color: rgb(211, 139, 7);
+  color: #fff;
+}
+
+#banner {
+  background-color: rgb(211, 139, 7);
+  display: table;
+  padding: auto;
+  height: 600px;
+  width: 100%;
+  font-family: "Sigmar One", cursive;
+  color: #fff;
+}
+#banner > h1 {
+  font-size: 4.75rem;
+}
+#banner > p {
+  font-family: "Lato", sans-serif;
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+.star-line {
+  max-width: 15rem;
+  box-sizing: content-box;
+  margin: 2rem auto 3rem;
+  height: 0;
+  color: #fff;
+  border: none;
+  border-color: #fff;
+  border-top: solid 0.5rem;
+}
+.star-line::after {
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  content: "\f005";
+  top: -0.9em;
+  left: 2em;
+  padding: 0 0.2em;
+  color: #fff;
+  background-color: rgb(211, 139, 7);
+  text-align: center;
+  font-family: FontAwesome;
+  font-size: 2.8em;
+}
+#about {
+  margin-bottom: 50px;
+}
+#about article {
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+#about article > h2 {
+    margin: 0 auto 50px auto;
+    font-family: 'Sigmar One', cursive;
+    color: rgb(38, 23, 88);
+}
+
+#about article > ul > li {
+    font-size: 5rem;
+}
+#about > h1 {
+  margin: 50px auto 25px auto;
+  font-family: "Sigmar One", cursive;
+  color: rgb(38, 23, 88);
+  font-size: 4rem;
+}
+.star-line-dark {
+  max-width: 15rem;
+  box-sizing: content-box;
+  margin: 2rem auto 3rem;
+  height: 0;
+  color: rgb(38, 23, 88);
+  border: none;
+  border-color: rgb(38, 23, 88);
+  border-top: solid 0.5rem;
+}
+.star-line-dark::after {
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  content: "\f005";
+  top: -0.9em;
+  left: 2em;
+  padding: 0 0.2em;
+  color: rgb(38, 23, 88);
+  background-color: #fff;
+  text-align: center;
+  font-family: FontAwesome;
+  font-size: 2.8em;
+}
+#portifolio {
+  background-color: rgb(211, 139, 7);
+  width: 100%;
+  padding-bottom: 50px;
+}
+#portifolio > h1 {
+  margin: 50px auto 25px auto;
+  font-family: "Sigmar One", cursive;
+  color: #fff;
+  font-size: 4rem;
+}
+#portifolio > .container {
+  margin-top: 50px;
+}
+#portifolio h3 {
+  font-family: "Sigmar One", cursive;
+  font-size: 2rem;
+  color: #fff;
+}
+#contact {
+  display: table;
+  background-color: rgb(38, 23, 88);
+  padding-top: 50px;
+  padding-bottom: 10px;
+  color: #fff;
+  width: 100%;
+  height: 400px;
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+}
+#contact h2 {
+  margin-bottom: 25px;
+  font-family: "Sigmar One", cursive;
+  font-size: 3rem;
+}
+
+
+#contact + footer {
+  background-color: rgb(38, 8, 66);
+  padding: 30px;
+  height: 75px;
+  font-size: 1.5rem;
+  color: #fff;
+}
+#contact .list-inline {
+  margin: 0;
+  list-style: none;
+}
+/* .btn-rounded {
+    display: inline-block;
+    padding: auto;
+    width: 5rem;
+    height: 5rem;
+    border-color: rgb(211, 139, 7);
+    border-width: .25rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    line-height: 3.5rem;
+} */
+.list-inline > .list-inline-item {
+  display: inline-block;
+}
+
+.list-inline-item > .btn-rounded {
+  color: #fff;
+  background-color: transparent;
+  padding: auto;
+  width: 5rem;
+  height: 5rem;
+  border-color: #fff;
+  border-width: .25rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  line-height: 3.5rem;
+  
+}
+.list-inline-item > .btn-rounded:hover {
+    background-color: #fff;
+    color: rgb(38, 23, 88);
+}
