@@ -1,7 +1,7 @@
 /* Fetches data from the JSON file via AJAX */
 
 const loadJSON = function (callback) {
-    var requestData = new XMLHttpRequest();
+    let requestData = new XMLHttpRequest();
     requestData.open("GET", "https://danicosantoscuputech.github.io/assets/dataset/people-collection.json", true);
     requestData.send(null);
     requestData.onreadystatechange = function () {
