@@ -227,3 +227,14 @@ body {
     background-color: #fff;
     color: rgb(38, 23, 88);
 }
+#portifolio .folio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  background-color: #fff;
+  width: 150px;
+  height: 150px; 
+  margin: 50px auto;
+  
+}
