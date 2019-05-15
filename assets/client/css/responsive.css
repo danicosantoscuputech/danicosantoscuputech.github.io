@@ -1,0 +1,77 @@
+/* Breakpoint max-width: 768px */
+@media screen and (max-width: 768px) {
+    #main-header {
+      background: #fff;
+        
+    }
+    #navbar {
+        position: static;
+        width: 100%;
+        padding: 5px 10px;
+        justify-content: space-between;
+        border-bottom: 5px solid #4A62FF;
+    }
+    #logo {
+        font-size: 10vh;
+    }
+    .nav-list {
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        z-index: 999;
+        width: 100%;
+        margin: auto;
+        background-color: rgba(74, 98, 255, 0.904);
+      
+    }
+    .nav-list li {
+        display: none;
+        margin: 15px 0;
+        padding-bottom: 10px;
+    }
+    #banner {
+        height: 400px;
+    }
+    .crsl-ctrl {
+        height: 50px;
+        width: 50px;
+        top: 55%;
+        font-size: 2.5vh;
+    }
+    #btn-menu {
+        display: block;
+    }
+    #about {
+        height: 650px;
+    }
+    #about .container {
+        width: 75%;
+    }   
+    .col-6 {
+        width: 100%;
+    }
+    #tools {
+        height: auto;
+    }
+    #tools .tool-card {
+        margin: 25px auto;
+    }
+    #main-glry {
+        width: 450px;
+        height: 275px;
+    }
+    .glry-ctrl {
+        top: 115px;
+    }
+    #thumb-panel {
+        overflow: hidden;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+ 
+ 
+}
