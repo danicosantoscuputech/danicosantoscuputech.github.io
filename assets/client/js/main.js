@@ -44,7 +44,7 @@ $(document).ready(function() {
     }
     $($items[slideIndex - 1]).fadeIn(2000);
   });
-  $("#main-crsl").hover(
+  $("#banner-pilates").hover(
     function() {
       clearInterval(autoSlide);
     },

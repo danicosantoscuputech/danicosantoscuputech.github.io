@@ -117,7 +117,7 @@ a {
 }
 
 /* Banner */
-#banner {    
+#banner-pilates {    
     height: 100vh;
     position: relative;
     z-index: 0;
@@ -203,7 +203,7 @@ a {
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    height: 420px;
+    height: 500px;
     width: 100%;
     margin: auto;
     padding: 20px;
@@ -211,7 +211,10 @@ a {
 }
 .card p {
     width: 60%;
-    text-align: center;
+}
+.card article > h1 {
+    color: #43FF00;
+    font-size: 4vh;
 }
 
 
@@ -225,7 +228,7 @@ a {
 
 .pic-card {
     background-color: rgb(158, 157, 157);
-    height: 455px;
+    height: 535px;
 }
 
 /* Tools */
