@@ -176,18 +176,21 @@ a {
     border: 10px solid #fff;
     color: #fff;
     text-align: center;
-    box-shadow: #000 0px 0px 5px;
+    box-shadow: #000 0px 0px 15px;
 }
 .item-caps h1 {
     font-size: 2.5em;
     margin: auto;
     width: 60%;
-    text-shadow: #000 0px 0px 2px;
+    text-shadow: #000 5px 5px 15px;
 }
 .item-caps p {
     font-size: 1.5em;
     margin: auto;
     width: 60%;
+    text-shadow: #000 5px 5px 15px;
+    font-family: 'Unica One', cursive;
+    font-weight: bold;
 }
 .inner-circle {
     position: absolute;
@@ -202,6 +205,8 @@ a {
     background-color: #43FF00;
     border: 10px solid #fff;
     box-shadow: #000 0px 0px 5px;
+    
+    
 }
 .prev {
     left: 25px;
