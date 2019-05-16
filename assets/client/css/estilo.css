@@ -162,6 +162,47 @@ a {
     height: 100%;
     width: 100%;
 }
+.item-caps {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4A62FF;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    color: #fff;
+    text-align: center;
+    box-shadow: #000 0px 0px 5px;
+}
+.item-caps h1 {
+    font-size: 2.5em;
+    margin: auto;
+    width: 60%;
+    text-shadow: #000 0px 0px 2px;
+}
+.item-caps p {
+    font-size: 1.5em;
+    margin: auto;
+    width: 60%;
+}
+.inner-circle {
+    position: absolute;
+    top: 50%;
+    right: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #43FF00;
+    border: 10px solid #fff;
+    box-shadow: #000 0px 0px 5px;
+}
 .prev {
     left: 25px;
 }
