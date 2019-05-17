@@ -52,4 +52,41 @@ $(document).ready(function() {
       autoSlide = setTimeout(showSlides, 5000);
     }
   );
+  let $glryItems = $(".glry-item");
+  let $gallery = $("#gallery");
+  let $thumbs = $(".thumb-item");
+  let galleryIndex = 1;
+  $($glryItems[0]).show();
+  $("#gallery .next").click(function() {
+    for (let i = 0; i < $glryItems.length; i++) {
+      $($glryItems[i])
+        .fadeOut(2000)
+        .css("position", "absolute");
+        $($thumbs[i]).css("opacity", 0.4);
+    }
+    galleryIndex++;
+    if (galleryIndex > $glryItems.length) {
+      galleryIndex = 1;
+    }
+    $($glryItems[galleryIndex - 1]).fadeIn(2000);
+    let $src = $($glryItems[galleryIndex - 1]).children("img").attr("src");
+    $(".blur img").attr("src", $src);
+    $($thumbs[galleryIndex - 1]).css("opacity", 1);
+  });
+  $("#gallery .prev").click(function() {
+    for (let i = 0; i < $glryItems.length; i++) {
+      $($glryItems[i])
+        .fadeOut(2000)
+        .css("position", "absolute");
+        $($thumbs[i]).css("opacity", 0.4);
+    }
+    galleryIndex--;
+    if (galleryIndex < 1) {
+      galleryIndex = $glryItems.length;
+    }
+    $($glryItems[galleryIndex - 1]).fadeIn(2000);  
+    let $src = $($glryItems[galleryIndex - 1]).children("img").attr("src");
+    $(".blur img").attr("src", $src); 
+    $($thumbs[galleryIndex - 1]).css("opacity", 1); 
+  });
 });

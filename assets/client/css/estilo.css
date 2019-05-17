@@ -164,14 +164,14 @@ a {
 }
 .item-caps {
     position: absolute;
-    bottom: 10%;
+    bottom: 20%;
     right: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #4A62FF;
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
     border: 10px solid #fff;
     color: #fff;
@@ -199,8 +199,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     background-color: #43FF00;
     border: 10px solid #fff;
@@ -303,6 +303,7 @@ a {
 
 /* Gallery */
 #gallery {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -310,6 +311,17 @@ a {
     height: 100vh;
     border-top: 5px solid #43FF00;
     
+}
+#gallery > .blur {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+.blur > img {
+    filter: saturate(25%) blur(5px);
+    /* -ms-filter: blur(100%);
+    -webkit-filter: blur(100%); */
 }
 
 #main-glry {
@@ -320,6 +332,11 @@ a {
     margin: auto;
 
 }
+.glry-item {
+    height: 100%;
+    width: 100%;
+    display: none;
+}
 .glry-ctrl {
     position: absolute;
     display: flex;
@@ -328,29 +345,33 @@ a {
     background-color: #4A62FF;
     height: 60px;
     width: 60px;
-    top: 175px;
+    top: 165px;
     border-radius: 50%;
     font-size: 3vh;
     padding: 15px;
     color: #fff;
     font-weight: bold;
     cursor: pointer;
+    box-shadow: #000 0px 0px 10px;
 }
 #thumb-panel {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     flex-direction: row;
     height: 200px;
     align-self: flex-end;
     border: 1px solid #000;
     width: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.513);
 }
 .thumb-item {
     height: 180px;
     width: 300px;
     border: 1px solid #000;
-    overflow: hidden;
+    opacity: 0.75;
+    
 }
 
 /* Footer */
