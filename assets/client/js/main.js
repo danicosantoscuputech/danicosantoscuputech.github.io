@@ -17,7 +17,7 @@ $(document).ready(function() {
       slideIndex = 1;
     }
     $($items[slideIndex - 1]).fadeIn(2000);
-    autoSlide = setTimeout(showSlides, 5000);
+    autoSlide = setTimeout(showSlides, 8000);
   };
   showSlides();
   $("#carousel .next").click(function() {
@@ -49,7 +49,7 @@ $(document).ready(function() {
       clearInterval(autoSlide);
     },
     function() {
-      autoSlide = setTimeout(showSlides, 5000);
+      autoSlide = setTimeout(showSlides, 8000);
     }
   );
   let $glryItems = $(".glry-item");
