@@ -91,6 +91,12 @@
         justify-content: space-around;
         height: 300px;
     }
+    .icon-field {
+        width: 50%;
+    }
+    .wtr-mark > p {
+        font-size: 10em;
+    }
     
  
  
