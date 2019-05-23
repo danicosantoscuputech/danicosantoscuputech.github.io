@@ -165,9 +165,9 @@ a {
     height: 100%;
     width: 100%;
 }
- img {
+ /* img {
     filter: contrast(180%);
-}
+} */
 .item-caps {
     position: absolute;
     bottom: 20%;
@@ -282,7 +282,7 @@ a {
 .pic-card > img {
     margin: auto;
     width: 100%;
-    filter: contrast(180%) brightness(120%);
+    /* filter: contrast(180%) brightness(120%); */
 }
 
 /* Tools */
@@ -348,7 +348,7 @@ a {
     display: none;
 }
 .glry-item > img {
-    filter: sepia(50%) brightness(130%) contrast(180%);
+    /* filter: sepia(50%) brightness(130%) contrast(180%); */
 }
 .glry-ctrl {
     position: absolute;
@@ -386,7 +386,7 @@ a {
 }
 .thumb-item > img {
     border-radius: 10px;
-    filter: sepia(50%) contrast(180%);
+    /* filter: sepia(50%) contrast(180%); */
 }
 
 /* Footer */
